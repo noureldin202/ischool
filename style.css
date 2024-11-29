@@ -1,0 +1,33 @@
+.root {
+  --main_color: #618bff;
+}
+
+* {
+  font-family: fantasy;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: rgb(146, 118, 171);
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: var(--main_color);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.navigation a {
+  color: var(--main_color);
+  font-weight: 800;
+  text-decoration: solid;
+}
